@@ -1,0 +1,50 @@
+{
+  "name": "MOODFLIX",
+  "short_name": "MoodMovie",
+  "description": "Movies that match your emotions - Happy, Sad, Romantic, Angry, Tired or Surprised!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A192F",
+  "theme_color": "#0A192F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Mood Selection Screen"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Happy Movies",
+      "short_name": "Happy",
+      "description": "Browse happy mood movies",
+      "url": "/?mood=happy",
+      "icons": [{ "src": "icons/happy-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Surprise Me",
+      "short_name": "Surprise",
+      "description": "Get random movie recommendations",
+      "url": "/?mood=surprise",
+      "icons": [{ "src": "icons/surprise-icon.png", "sizes": "96x96" }]
+    }
+  ]
+}

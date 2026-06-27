@@ -1,0 +1,3172 @@
+{
+    "movies": [
+        {
+            "name": "The Shining",
+            "year": "1980",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Psychological horror masterpiece",
+            "mood": "horror",
+            "poster": "gradient-horror"
+        },
+        {
+            "name": "The Conjuring",
+            "year": "2013",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Terrifying paranormal investigation",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Hereditary",
+            "year": "2018",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Disturbing family horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "A Quiet Place",
+            "year": "2018",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Tense silent survival horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Exorcist",
+            "year": "1973",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Classic demonic possession horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "It",
+            "year": "2017",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Creepy clown terror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Ring",
+            "year": "2002",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "Cursed videotape horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Get Out",
+            "year": "2017",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Social horror with mind-bending twist",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Paranormal Activity",
+            "year": "2007",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Found footage horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Insidious",
+            "year": "2010",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Haunted house nightmare",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Babadook",
+            "year": "2014",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Psychological monster horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Sinister",
+            "year": "2012",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "Found footage family horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Witch",
+            "year": "2015",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Period folk horror",
+            "mood": "horror",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Midsommar",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Daylight cult horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Us",
+            "year": "2019",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Doppelganger home invasion",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Sixth Sense",
+            "year": "1999",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Boy who sees dead people",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Others",
+            "year": "2001",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "Gothic ghost story",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Annabelle",
+            "year": "2014",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Possessed doll terror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Lights Out",
+            "year": "2016",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Fear of the dark horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Don't Breathe",
+            "year": "2016",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Blind man home invasion",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Lighthouse",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Isolated madness horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Smile",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Cursed smile terror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "X",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Texas farmhouse slasher",
+            "mood": "horror",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "The Menu",
+            "year": "2022",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Fine dining horror satire",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "M3GAN",
+            "year": "2022",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "AI doll gone wrong",
+            "mood": "horror",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Good Will Hunting",
+            "year": "1997",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Genius janitor finds his path - uplifting transformation",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Secret Life of Walter Mitty",
+            "year": "2013",
+            "genre": "Adventure/Comedy",
+            "language": "English",
+            "reason": "Daydreamer goes on real adventure - calming escape",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Chef",
+            "year": "2014",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Angry chef finds peace through cooking - soothing journey",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "About Time",
+            "year": "2013",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Time travel to appreciate life - heartwarming calm",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Soul",
+            "year": "2020",
+            "genre": "Animation/Drama",
+            "language": "English",
+            "reason": "Finding life's purpose - deeply calming",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Peaceful Warrior",
+            "year": "2006",
+            "genre": "Drama/Sport",
+            "language": "English",
+            "reason": "Arrogant athlete learns wisdom - anger to peace",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Life of Pi",
+            "year": "2012",
+            "genre": "Adventure/Drama",
+            "language": "English",
+            "reason": "Survival with tiger - meditative journey",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The King's Speech",
+            "year": "2010",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Overcoming frustration with patience - inspiring calm",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Hunt for the Wilderpeople",
+            "year": "2016",
+            "genre": "Adventure/Comedy",
+            "language": "English",
+            "reason": "Troubled boy finds family - heartwarming humor",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "A Beautiful Mind",
+            "year": "2001",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Struggling genius finds peace - inspirational",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Mad Max: Fury Road",
+            "year": "2015",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Non-stop chase action - adrenaline rush",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Edge of Tomorrow",
+            "year": "2014",
+            "genre": "Action/Sci-Fi",
+            "language": "English",
+            "reason": "Time loop action - exciting repeat",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Baby Driver",
+            "year": "2017",
+            "genre": "Action/Crime",
+            "language": "English",
+            "reason": "Music-synced car chases - stylish fun",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Mission: Impossible - Fallout",
+            "year": "2018",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Incredible stunts - heart-pounding fun",
+            "mood": "happy",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Spider-Man: Into the Spider-Verse",
+            "year": "2018",
+            "genre": "Animation/Action",
+            "language": "English",
+            "reason": "Visual masterpiece - exciting multiverse",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Knives Out",
+            "year": "2019",
+            "genre": "Mystery/Comedy",
+            "language": "English",
+            "reason": "Clever whodunit - fun thriller",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Kingsman: The Secret Service",
+            "year": "2014",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Stylish spy action - entertaining violence",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Martian",
+            "year": "2015",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Survival on Mars - thrilling problem-solving",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Atomic Blonde",
+            "year": "2017",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Stylish spy action - cool combat",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Scott Pilgrim vs. The World",
+            "year": "2010",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Video game style action - fun energy",
+            "mood": "happy",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "1917",
+            "year": "2019",
+            "genre": "War/Drama",
+            "language": "English",
+            "reason": "One-shot war mission - intense immersion",
+            "mood": "happy",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Ford v Ferrari",
+            "year": "2019",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Racing rivalry - thrilling speed",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Interstellar",
+            "year": "2014",
+            "genre": "Sci-Fi/Drama",
+            "language": "English",
+            "reason": "Space exploration epic - mind-bending adventure",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Django Unchained",
+            "year": "2012",
+            "genre": "Western/Action",
+            "language": "English",
+            "reason": "Revenge western - satisfying action",
+            "mood": "happy",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Dune",
+            "year": "2021",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Epic desert planet saga - visual spectacle",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Everything Everywhere All at Once",
+            "year": "2022",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Multiverse madness - chaotic fun",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Top Gun: Maverick",
+            "year": "2022",
+            "genre": "Action/Drama",
+            "language": "English",
+            "reason": "Fighter jet action - nostalgia thrill",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Paddington",
+            "year": "2014",
+            "genre": "Family/Comedy",
+            "language": "English",
+            "reason": "Wholesome bear adventure - pure joy",
+            "mood": "happy",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Coco",
+            "year": "2017",
+            "genre": "Animation/Family",
+            "language": "English",
+            "reason": "Day of the Dead celebration - beautiful family story",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "The Greatest Showman",
+            "year": "2017",
+            "genre": "Musical/Drama",
+            "language": "English",
+            "reason": "Uplifting circus musical - sing-along fun",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Sing",
+            "year": "2016",
+            "genre": "Animation/Comedy",
+            "language": "English",
+            "reason": "Animal singing competition - feel-good music",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Enchanted",
+            "year": "2007",
+            "genre": "Fantasy/Comedy",
+            "language": "English",
+            "reason": "Fairy tale in NYC - charming fun",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Jaws",
+            "year": "1975",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Original summer blockbuster horror",
+            "mood": "horror",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Jaws",
+            "year": "1975",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Original summer blockbuster horror",
+            "mood": "horror",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Carrie",
+            "year": "1976",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Telekinetic revenge horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Alien",
+            "year": "1979",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Space creature horror masterpiece",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Thing",
+            "year": "1982",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Paranoia and body horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Poltergeist",
+            "year": "1982",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Suburban haunted house terror",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "A Nightmare on Elm Street",
+            "year": "1984",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Dream-invading killer horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Fly",
+            "year": "1986",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Body transformation horror",
+            "mood": "horror",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Hellraiser",
+            "year": "1987",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Cenobite puzzle box horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Candyman",
+            "year": "1992",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Urban legend horror",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Scream",
+            "year": "1996",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "Meta slasher revival",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Blair Witch Project",
+            "year": "1999",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Found footage phenomenon",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "28 Days Later",
+            "year": "2002",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Fast zombie apocalypse",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Descent",
+            "year": "2005",
+            "genre": "Horror/Adventure",
+            "language": "English",
+            "reason": "Cave creature horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Mist",
+            "year": "2007",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Supernatural fog horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Drag Me to Hell",
+            "year": "2009",
+            "genre": "Horror/Comedy",
+            "language": "English",
+            "reason": "Supernatural curse horror",
+            "mood": "horror",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "The Cabin in the Woods",
+            "year": "2011",
+            "genre": "Horror/Comedy",
+            "language": "English",
+            "reason": "Meta horror deconstruction",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Evil Dead",
+            "year": "2013",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Gory cabin horror remake",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "It Follows",
+            "year": "2014",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "STD metaphor horror",
+            "mood": "horror",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Invisible Man",
+            "year": "2020",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Modern stalker horror",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Titane",
+            "year": "2021",
+            "genre": "Horror/Drama",
+            "language": "French",
+            "reason": "Body horror transformation",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Malignant",
+            "year": "2021",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Twist-heavy body horror",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Nope",
+            "year": "2022",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "UFO creature feature",
+            "mood": "horror",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Talk to Me",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Séance hand horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Infinity Pool",
+            "year": "2023",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Vacation clone horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "When Evil Lurks",
+            "year": "2023",
+            "genre": "Horror",
+            "language": "Spanish",
+            "reason": "Demonic possession horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Amityville Horror",
+            "year": "1979",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Based on true story horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Rocky Horror Picture Show",
+            "year": "1975",
+            "genre": "Musical/Horror",
+            "language": "English",
+            "reason": "Cult musical horror comedy",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Grease",
+            "year": "1978",
+            "genre": "Musical/Romance",
+            "language": "English",
+            "reason": "High school musical fun",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Star Wars: Episode IV - A New Hope",
+            "year": "1977",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Epic space adventure",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Raiders of the Lost Ark",
+            "year": "1981",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Pulse-pounding archaeological adventure",
+            "mood": "happy",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Back to the Future",
+            "year": "1985",
+            "genre": "Sci-Fi/Comedy",
+            "language": "English",
+            "reason": "Time travel adventure comedy",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Die Hard",
+            "year": "1988",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Definitive action classic",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Princess Bride",
+            "year": "1987",
+            "genre": "Adventure/Comedy",
+            "language": "English",
+            "reason": "Charming fairy tale adventure",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Jurassic Park",
+            "year": "1993",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Dinosaur adventure spectacle",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Matrix",
+            "year": "1999",
+            "genre": "Action/Sci-Fi",
+            "language": "English",
+            "reason": "Mind-bending action revolution",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Gladiator",
+            "year": "2000",
+            "genre": "Action/Drama",
+            "language": "English",
+            "reason": "Epic historical revenge",
+            "mood": "happy",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Lord of the Rings: The Fellowship of the Ring",
+            "year": "2001",
+            "genre": "Adventure/Fantasy",
+            "language": "English",
+            "reason": "Epic fantasy journey",
+            "mood": "happy",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "year": "2003",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Swashbuckling pirate fun",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Kill Bill: Vol. 1",
+            "year": "2003",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Stylish revenge action",
+            "mood": "happy",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "The Dark Knight",
+            "year": "2008",
+            "genre": "Action/Crime",
+            "language": "English",
+            "reason": "Superhero crime epic",
+            "mood": "happy",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Inception",
+            "year": "2010",
+            "genre": "Action/Sci-Fi",
+            "language": "English",
+            "reason": "Dream heist thriller",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Guardians of the Galaxy",
+            "year": "2014",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Space adventure with humor",
+            "mood": "happy",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "John Wick",
+            "year": "2014",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Stylish revenge action",
+            "mood": "happy",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "La La Land",
+            "year": "2016",
+            "genre": "Musical/Romance",
+            "language": "English",
+            "reason": "Modern musical romance",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Grand Budapest Hotel",
+            "year": "2014",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Whimsical hotel adventure",
+            "mood": "happy",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Shazam!",
+            "year": "2019",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Superhero with humor",
+            "mood": "happy",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Free Guy",
+            "year": "2021",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Video game NPC adventure",
+            "mood": "happy",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "RRR",
+            "year": "2022",
+            "genre": "Action/Drama",
+            "language": "Telugu",
+            "reason": "Epic bromance action",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Puss in Boots: The Last Wish",
+            "year": "2022",
+            "genre": "Animation/Adventure",
+            "language": "English",
+            "reason": "Animated swashbuckling fun",
+            "mood": "happy",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "The Super Mario Bros. Movie",
+            "year": "2023",
+            "genre": "Animation/Adventure",
+            "language": "English",
+            "reason": "Nostalgic video game adventure",
+            "mood": "happy",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Godzilla Minus One",
+            "year": "2023",
+            "genre": "Action/Drama",
+            "language": "Japanese",
+            "reason": "Human drama with kaiju action",
+            "mood": "happy",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Furiosa: A Mad Max Saga",
+            "year": "2024",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Post-apocalyptic origin story",
+            "mood": "happy",
+            "poster": "gradient-orange"
+        },
+        {
+
+
+
+            "name": "Pride & Prejudice",
+            "year": "2005",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Classic Regency-era romance",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+
+        {
+            "name": "Before Sunrise",
+            "year": "1995",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Romantic night in Vienna",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "10 Things I Hate About You",
+            "year": "1999",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Modern Shakespeare adaptation",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Eternal Sunshine of the Spotless Mind",
+            "year": "2004",
+            "genre": "Romance/Sci-Fi",
+            "language": "English",
+            "reason": "Mind-bending love story",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "A Star is Born",
+            "year": "2018",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Musician romance with great songs",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Crazy Rich Asians",
+            "year": "2018",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Lavish modern romance",
+            "mood": "love",
+            "poster": "gradient-gold"
+        },
+        {
+            "name": "The Fault in Our Stars",
+            "year": "2014",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Tragic teenage love story",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+
+        {
+            "name": "When Harry Met Sally",
+            "year": "1989",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Friends-to-lovers classic",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Silver Linings Playbook",
+            "year": "2012",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Unconventional love story",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Holiday",
+            "year": "2006",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Christmas house swap romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Notting Hill",
+            "year": "1999",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Bookseller meets movie star",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Ghost",
+            "year": "1990",
+            "genre": "Romance/Fantasy",
+            "language": "English",
+            "reason": "Love beyond death",
+            "mood": "love",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Pretty Woman",
+            "year": "1990",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Modern Cinderella story",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Dirty Dancing",
+            "year": "1987",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Summer resort romance",
+            "mood": "love",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Sleepless in Seattle",
+            "year": "1993",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Long-distance romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Princess Diaries",
+            "year": "2001",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Teen princess romance",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "My Big Fat Greek Wedding",
+            "year": "2002",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Cross-cultural family romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Love Actually",
+            "year": "2003",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Interwoven Christmas love stories",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Proposal",
+            "year": "2009",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Fake marriage romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "To All the Boys I've Loved Before",
+            "year": "2018",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Teen romance letters",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Me Before You",
+            "year": "2016",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Caregiver-patient romance",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Call Me By Your Name",
+            "year": "2017",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Summer Italian romance",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Shape of Water",
+            "year": "2017",
+            "genre": "Romance/Fantasy",
+            "language": "English",
+            "reason": "Unusual creature romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Amélie",
+            "year": "2001",
+            "genre": "Romance/Comedy",
+            "language": "French",
+            "reason": "Whimsical Parisian romance",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Roman Holiday",
+            "year": "1953",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Princess escapes for romance",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Breakfast at Tiffany's",
+            "year": "1961",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "New York socialite romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "An Officer and a Gentleman",
+            "year": "1982",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Military training romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Say Anything",
+            "year": "1989",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Iconic boombox scene romance",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Four Weddings and a Funeral",
+            "year": "1994",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "British romantic comedy",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Clueless",
+            "year": "1995",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Teen matchmaking romance",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Moulin Rouge!",
+            "year": "2001",
+            "genre": "Musical/Romance",
+            "language": "English",
+            "reason": "Spectacular musical romance",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "How to Lose a Guy in 10 Days",
+            "year": "2003",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Journalist romance bet",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "The Lake House",
+            "year": "2006",
+            "genre": "Romance/Fantasy",
+            "language": "English",
+            "reason": "Time-crossed lovers",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "P.S. I Love You",
+            "year": "2007",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Love letters from beyond",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Time Traveler's Wife",
+            "year": "2009",
+            "genre": "Romance/Sci-Fi",
+            "language": "English",
+            "reason": "Time-travel romance",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Vow",
+            "year": "2012",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Amnesia romance story",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Best of Me",
+            "year": "2014",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "High school sweethearts reunite",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Longest Ride",
+            "year": "2015",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Dual generation love stories",
+            "mood": "love",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Carol",
+            "year": "2015",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "1950s forbidden romance",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Brooklyn",
+            "year": "2015",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Immigrant love triangle",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Big Sick",
+            "year": "2017",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Cross-cultural hospital romance",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Set It Up",
+            "year": "2018",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Assistant matchmaking romance",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Always Be My Maybe",
+            "year": "2019",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Childhood friends romance",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Lovebirds",
+            "year": "2020",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Couple on the run adventure",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Palm Springs",
+            "year": "2020",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Time loop wedding romance",
+            "mood": "love",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "The Photograph",
+            "year": "2020",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Dual timeline love story",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Half of It",
+            "year": "2020",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Teen love triangle",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Happiest Season",
+            "year": "2020",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Christmas coming-out romance",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "West Side Story",
+            "year": "2021",
+            "genre": "Musical/Romance",
+            "language": "English",
+            "reason": "Modern Romeo and Juliet",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "tick, tick... BOOM!",
+            "year": "2021",
+            "genre": "Musical/Drama",
+            "language": "English",
+            "reason": "Artist's life and love",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Cyrano",
+            "year": "2021",
+            "genre": "Musical/Romance",
+            "language": "English",
+            "reason": "Musical adaptation of classic",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Marry Me",
+            "year": "2022",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Pop star marriage proposal",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Lost City",
+            "year": "2022",
+            "genre": "Romance/Adventure",
+            "language": "English",
+            "reason": "Romance novelist adventure",
+            "mood": "love",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Bros",
+            "year": "2022",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Gay romantic comedy",
+            "mood": "love",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "Ticket to Paradise",
+            "year": "2022",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Exes try to stop wedding",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Your Place or Mine",
+            "year": "2023",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Long-distance friends romance",
+            "mood": "love",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Red, White & Royal Blue",
+            "year": "2023",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Prince and President's son romance",
+            "mood": "love",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Past Lives",
+            "year": "2023",
+            "genre": "Romance/Drama",
+            "language": "English/Korean",
+            "reason": "Childhood sweethearts reconnect",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Anyone But You",
+            "year": "2023",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Fake wedding date romance",
+            "mood": "love",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Idea of You",
+            "year": "2024",
+            "genre": "Romance/Drama",
+            "language": "English",
+            "reason": "Single mom and pop star romance",
+            "mood": "love",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Upgraded",
+            "year": "2024",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Art intern mistaken for boss",
+            "mood": "love",
+            "poster": "gradient-blue"
+        },
+        {
+
+            "name": "Parasite",
+            "year": "2019",
+            "genre": "Thriller/Dark Comedy",
+            "language": "Korean",
+            "reason": "Class struggle thriller with twists",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Gone Girl",
+            "year": "2014",
+            "genre": "Thriller/Mystery",
+            "language": "English",
+            "reason": "Twisted marriage thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Prisoners",
+            "year": "2013",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Dark kidnapping thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Nightcrawler",
+            "year": "2014",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Ambitious crime journalist thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Girl with the Dragon Tattoo",
+            "year": "2011",
+            "genre": "Thriller/Mystery",
+            "language": "English",
+            "reason": "Dark investigative thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Oldboy",
+            "year": "2003",
+            "genre": "Thriller/Action",
+            "language": "Korean",
+            "reason": "Revenge thriller masterpiece",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Seven",
+            "year": "1995",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Dark detective thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Zodiac",
+            "year": "2007",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Serial killer investigation thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Silence of the Lambs",
+            "year": "1991",
+            "genre": "Thriller/Horror",
+            "language": "English",
+            "reason": "Psychological thriller classic",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Arrival",
+            "year": "2016",
+            "genre": "Sci-Fi/Drama",
+            "language": "English",
+            "reason": "Linguistic alien contact",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Blade Runner 2049",
+            "year": "2017",
+            "genre": "Sci-Fi/Noir",
+            "language": "English",
+            "reason": "Visual sci-fi detective story",
+            "mood": "thoughtful",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Ex Machina",
+            "year": "2014",
+            "genre": "Sci-Fi/Thriller",
+            "language": "English",
+            "reason": "AI consciousness thriller",
+            "mood": "thoughtful",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Annihilation",
+            "year": "2018",
+            "genre": "Sci-Fi/Horror",
+            "language": "English",
+            "reason": "Mysterious zone expedition",
+            "mood": "thoughtful",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Prestige",
+            "year": "2006",
+            "genre": "Drama/Mystery",
+            "language": "English",
+            "reason": "Magician rivalry thriller",
+            "mood": "thoughtful",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Moonlight",
+            "year": "2016",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Coming-of-age identity story",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Lady Bird",
+            "year": "2017",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Mother-daughter coming-of-age",
+            "mood": "emotional",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Farewell",
+            "year": "2019",
+            "genre": "Comedy/Drama",
+            "language": "English/Mandarin",
+            "reason": "Family lie cultural drama",
+            "mood": "emotional",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Minari",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English/Korean",
+            "reason": "Immigrant family farming story",
+            "mood": "emotional",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "CODA",
+            "year": "2021",
+            "genre": "Drama/Romance",
+            "language": "English",
+            "reason": "Deaf family musical drama",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Everything Everywhere All at Once",
+            "year": "2022",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Multiverse family drama",
+            "mood": "emotional",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "The Father",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Dementia perspective drama",
+            "mood": "emotional",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Nomadland",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Modern nomad life",
+            "mood": "thoughtful",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Sound of Metal",
+            "year": "2019",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Drummer loses hearing",
+            "mood": "emotional",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Promising Young Woman",
+            "year": "2020",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Revenge thriller",
+            "mood": "thriller",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Uncut Gems",
+            "year": "2019",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "High-stakes gambling thriller",
+            "mood": "anxious",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Lighthouse",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Isolated madness descent",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Hereditary",
+            "year": "2018",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Family trauma horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Midsommar",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Daylight cult horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "The Witch",
+            "year": "2015",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Puritan folk horror",
+            "mood": "horror",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Get Out",
+            "year": "2017",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Social horror thriller",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Barbarian",
+            "year": "2022",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Airbnb horror surprise",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Pearl",
+            "year": "2022",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Origin story horror",
+            "mood": "horror",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "X",
+            "year": "2022",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "1970s slasher horror",
+            "mood": "horror",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "The Menu",
+            "year": "2022",
+            "genre": "Horror/Comedy",
+            "language": "English",
+            "reason": "Fine dining horror satire",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Smile",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Traumatic curse horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Talk to Me",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Séance party horror",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "When Evil Lurks",
+            "year": "2023",
+            "genre": "Horror",
+            "language": "Spanish",
+            "reason": "Demonic possession horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Infinity Pool",
+            "year": "2023",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Vacation clone horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Scream VI",
+            "year": "2023",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "New York slasher",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Evil Dead Rise",
+            "year": "2023",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Apartment building horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Cocaine Bear",
+            "year": "2023",
+            "genre": "Comedy/Thriller",
+            "language": "English",
+            "reason": "True story comedy thriller",
+            "mood": "funny",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Bottoms",
+            "year": "2023",
+            "genre": "Comedy",
+            "language": "English",
+            "reason": "High school fight club comedy",
+            "mood": "funny",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "No Hard Feelings",
+            "year": "2023",
+            "genre": "Comedy/Romance",
+            "language": "English",
+            "reason": "Unconventional dating comedy",
+            "mood": "funny",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Dungeons & Dragons: Honor Among Thieves",
+            "year": "2023",
+            "genre": "Fantasy/Adventure",
+            "language": "English",
+            "reason": "Fantasy heist adventure",
+            "mood": "adventure",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Guardians of the Galaxy Vol. 3",
+            "year": "2023",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Space team finale",
+            "mood": "adventure",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Spider-Man: Across the Spider-Verse",
+            "year": "2023",
+            "genre": "Animation/Action",
+            "language": "English",
+            "reason": "Multiverse spider adventure",
+            "mood": "adventure",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "John Wick: Chapter 4",
+            "year": "2023",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Epic action conclusion",
+            "mood": "action",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Mission: Impossible - Dead Reckoning Part One",
+            "year": "2023",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Stunt-filled spy thriller",
+            "mood": "action",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Killer",
+            "year": "2023",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Assassin thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Oppenheimer",
+            "year": "2023",
+            "genre": "Biography/Thriller",
+            "language": "English",
+            "reason": "Atomic bomb creation drama",
+            "mood": "thoughtful",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Killers of the Flower Moon",
+            "year": "2023",
+            "genre": "Crime/Drama",
+            "language": "English",
+            "reason": "Historical crime drama",
+            "mood": "thoughtful",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Poor Things",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Frankenstein-inspired comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Holdovers",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Christmas boarding school comedy",
+            "mood": "emotional",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "American Fiction",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Satirical literary comedy",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Anatomy of a Fall",
+            "year": "2023",
+            "genre": "Thriller/Drama",
+            "language": "French/English",
+            "reason": "Courtroom mystery thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Zone of Interest",
+            "year": "2023",
+            "genre": "Drama/Historical",
+            "language": "German",
+            "reason": "Holocaust adjacent drama",
+            "mood": "thoughtful",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "All of Us Strangers",
+            "year": "2023",
+            "genre": "Drama/Fantasy",
+            "language": "English",
+            "reason": "Ghostly family drama",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Past Lives",
+            "year": "2023",
+            "genre": "Romance/Drama",
+            "language": "English/Korean",
+            "reason": "Childhood sweethearts reconnect",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Saltburn",
+            "year": "2023",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Wealthy estate thriller",
+            "mood": "thriller",
+            "poster": "gradient-gold"
+        },
+        {
+            "name": "Ferrari",
+            "year": "2023",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Enzo Ferrari biopic",
+            "mood": "drama",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Iron Claw",
+            "year": "2023",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Wrestling family drama",
+            "mood": "emotional",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Dream Scenario",
+            "year": "2023",
+            "genre": "Comedy/Horror",
+            "language": "English",
+            "reason": "Man appears in dreams comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Boy and the Heron",
+            "year": "2023",
+            "genre": "Animation/Fantasy",
+            "language": "Japanese",
+            "reason": "Studio Ghibli fantasy",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Godzilla Minus One",
+            "year": "2023",
+            "genre": "Action/Drama",
+            "language": "Japanese",
+            "reason": "Post-war Godzilla drama",
+            "mood": "action",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Beekeeper",
+            "year": "2024",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Beekeeper revenge action",
+            "mood": "action",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Anyone But You",
+            "year": "2023",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Wedding romance comedy",
+            "mood": "romance",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Love Lies Bleeding",
+            "year": "2024",
+            "genre": "Thriller/Romance",
+            "language": "English",
+            "reason": "Gym romance thriller",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Dune: Part Two",
+            "year": "2024",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Desert planet epic conclusion",
+            "mood": "epic",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Godzilla x Kong: The New Empire",
+            "year": "2024",
+            "genre": "Action/Sci-Fi",
+            "language": "English",
+            "reason": "Monster team-up action",
+            "mood": "action",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Civil War",
+            "year": "2024",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Journalist war thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Challengers",
+            "year": "2024",
+            "genre": "Drama/Sports",
+            "language": "English",
+            "reason": "Tennis love triangle drama",
+            "mood": "drama",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Fall Guy",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Stuntman action comedy",
+            "mood": "funny",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Furiosa: A Mad Max Saga",
+            "year": "2024",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Post-apocalyptic origin story",
+            "mood": "action",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Kingdom of the Planet of the Apes",
+            "year": "2024",
+            "genre": "Sci-Fi/Action",
+            "language": "English",
+            "reason": "Ape civilization sequel",
+            "mood": "adventure",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Bikeriders",
+            "year": "2024",
+            "genre": "Drama/Crime",
+            "language": "English",
+            "reason": "Motorcycle gang drama",
+            "mood": "drama",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Kinds of Kindness",
+            "year": "2024",
+            "genre": "Drama/Comedy",
+            "language": "English",
+            "reason": "Anthology dark comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Hit Man",
+            "year": "2024",
+            "genre": "Comedy/Romance",
+            "language": "English",
+            "reason": "Fake hitman comedy",
+            "mood": "funny",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Inside Out 2",
+            "year": "2024",
+            "genre": "Animation/Comedy",
+            "language": "English",
+            "reason": "Emotions sequel",
+            "mood": "emotional",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "Bad Boys: Ride or Die",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Buddy cop action comedy",
+            "mood": "action",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "A Quiet Place: Day One",
+            "year": "2024",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Alien invasion prequel",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Twisters",
+            "year": "2024",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Storm chasing thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Borderlands",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Video game adaptation",
+            "mood": "action",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Alien: Romulus",
+            "year": "2024",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Alien franchise return",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Beetlejuice Beetlejuice",
+            "year": "2024",
+            "genre": "Comedy/Fantasy",
+            "language": "English",
+            "reason": "Ghost comedy sequel",
+            "mood": "funny",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Joker: Folie à Deux",
+            "year": "2024",
+            "genre": "Crime/Drama",
+            "language": "English",
+            "reason": "Joker musical sequel",
+            "mood": "drama",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Gladiator II",
+            "year": "2024",
+            "genre": "Action/Drama",
+            "language": "English",
+            "reason": "Roman epic sequel",
+            "mood": "epic",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Wicked",
+            "year": "2024",
+            "genre": "Musical/Fantasy",
+            "language": "English",
+            "reason": "Wizard of Oz prequel",
+            "mood": "musical",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Mufasa: The Lion King",
+            "year": "2024",
+            "genre": "Animation/Adventure",
+            "language": "English",
+            "reason": "Lion King prequel",
+            "mood": "adventure",
+            "poster": "gradient-gold"
+        },
+        {
+            "name": "Nosferatu",
+            "year": "2024",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Vampire horror remake",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Lord of the Rings: The War of the Rohirrim",
+            "year": "2024",
+            "genre": "Animation/Fantasy",
+            "language": "English",
+            "reason": "Lord of the Rings anime",
+            "mood": "epic",
+            "poster": "gradient-green"
+        },
+        {
+
+            "name": "Parasite",
+            "year": "2019",
+            "genre": "Thriller/Dark Comedy",
+            "language": "Korean",
+            "reason": "Class struggle thriller with twists",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Gone Girl",
+            "year": "2014",
+            "genre": "Thriller/Mystery",
+            "language": "English",
+            "reason": "Twisted marriage thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Prisoners",
+            "year": "2013",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Dark kidnapping thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Nightcrawler",
+            "year": "2014",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Ambitious crime journalist thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Girl with the Dragon Tattoo",
+            "year": "2011",
+            "genre": "Thriller/Mystery",
+            "language": "English",
+            "reason": "Dark investigative thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Oldboy",
+            "year": "2003",
+            "genre": "Thriller/Action",
+            "language": "Korean",
+            "reason": "Revenge thriller masterpiece",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Seven",
+            "year": "1995",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Dark detective thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Zodiac",
+            "year": "2007",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "Serial killer investigation thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Silence of the Lambs",
+            "year": "1991",
+            "genre": "Thriller/Horror",
+            "language": "English",
+            "reason": "Psychological thriller classic",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Arrival",
+            "year": "2016",
+            "genre": "Sci-Fi/Drama",
+            "language": "English",
+            "reason": "Linguistic alien contact",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Blade Runner 2049",
+            "year": "2017",
+            "genre": "Sci-Fi/Noir",
+            "language": "English",
+            "reason": "Visual sci-fi detective story",
+            "mood": "thoughtful",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Ex Machina",
+            "year": "2014",
+            "genre": "Sci-Fi/Thriller",
+            "language": "English",
+            "reason": "AI consciousness thriller",
+            "mood": "thoughtful",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Annihilation",
+            "year": "2018",
+            "genre": "Sci-Fi/Horror",
+            "language": "English",
+            "reason": "Mysterious zone expedition",
+            "mood": "thoughtful",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Prestige",
+            "year": "2006",
+            "genre": "Drama/Mystery",
+            "language": "English",
+            "reason": "Magician rivalry thriller",
+            "mood": "thoughtful",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Moonlight",
+            "year": "2016",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Coming-of-age identity story",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Lady Bird",
+            "year": "2017",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Mother-daughter coming-of-age",
+            "mood": "emotional",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "The Farewell",
+            "year": "2019",
+            "genre": "Comedy/Drama",
+            "language": "English/Mandarin",
+            "reason": "Family lie cultural drama",
+            "mood": "emotional",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Minari",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English/Korean",
+            "reason": "Immigrant family farming story",
+            "mood": "emotional",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "CODA",
+            "year": "2021",
+            "genre": "Drama/Romance",
+            "language": "English",
+            "reason": "Deaf family musical drama",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Everything Everywhere All at Once",
+            "year": "2022",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Multiverse family drama",
+            "mood": "emotional",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "The Father",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Dementia perspective drama",
+            "mood": "emotional",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Nomadland",
+            "year": "2020",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Modern nomad life",
+            "mood": "thoughtful",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Sound of Metal",
+            "year": "2019",
+            "genre": "Drama",
+            "language": "English",
+            "reason": "Drummer loses hearing",
+            "mood": "emotional",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Promising Young Woman",
+            "year": "2020",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Revenge thriller",
+            "mood": "thriller",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Uncut Gems",
+            "year": "2019",
+            "genre": "Thriller/Crime",
+            "language": "English",
+            "reason": "High-stakes gambling thriller",
+            "mood": "anxious",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Lighthouse",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Isolated madness descent",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Hereditary",
+            "year": "2018",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Family trauma horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Midsommar",
+            "year": "2019",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Daylight cult horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "The Witch",
+            "year": "2015",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Puritan folk horror",
+            "mood": "horror",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Get Out",
+            "year": "2017",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Social horror thriller",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Barbarian",
+            "year": "2022",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Airbnb horror surprise",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Pearl",
+            "year": "2022",
+            "genre": "Horror/Drama",
+            "language": "English",
+            "reason": "Origin story horror",
+            "mood": "horror",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "X",
+            "year": "2022",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "1970s slasher horror",
+            "mood": "horror",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "The Menu",
+            "year": "2022",
+            "genre": "Horror/Comedy",
+            "language": "English",
+            "reason": "Fine dining horror satire",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Smile",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Traumatic curse horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Talk to Me",
+            "year": "2022",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Séance party horror",
+            "mood": "horror",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "When Evil Lurks",
+            "year": "2023",
+            "genre": "Horror",
+            "language": "Spanish",
+            "reason": "Demonic possession horror",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Infinity Pool",
+            "year": "2023",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Vacation clone horror",
+            "mood": "horror",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Scream VI",
+            "year": "2023",
+            "genre": "Horror/Mystery",
+            "language": "English",
+            "reason": "New York slasher",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Evil Dead Rise",
+            "year": "2023",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Apartment building horror",
+            "mood": "horror",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Cocaine Bear",
+            "year": "2023",
+            "genre": "Comedy/Thriller",
+            "language": "English",
+            "reason": "True story comedy thriller",
+            "mood": "funny",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Bottoms",
+            "year": "2023",
+            "genre": "Comedy",
+            "language": "English",
+            "reason": "High school fight club comedy",
+            "mood": "funny",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "No Hard Feelings",
+            "year": "2023",
+            "genre": "Comedy/Romance",
+            "language": "English",
+            "reason": "Unconventional dating comedy",
+            "mood": "funny",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Dungeons & Dragons: Honor Among Thieves",
+            "year": "2023",
+            "genre": "Fantasy/Adventure",
+            "language": "English",
+            "reason": "Fantasy heist adventure",
+            "mood": "adventure",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Guardians of the Galaxy Vol. 3",
+            "year": "2023",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Space team finale",
+            "mood": "adventure",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Spider-Man: Across the Spider-Verse",
+            "year": "2023",
+            "genre": "Animation/Action",
+            "language": "English",
+            "reason": "Multiverse spider adventure",
+            "mood": "adventure",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "John Wick: Chapter 4",
+            "year": "2023",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Epic action conclusion",
+            "mood": "action",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Mission: Impossible - Dead Reckoning Part One",
+            "year": "2023",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Stunt-filled spy thriller",
+            "mood": "action",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "The Killer",
+            "year": "2023",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Assassin thriller",
+            "mood": "thriller",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Oppenheimer",
+            "year": "2023",
+            "genre": "Biography/Thriller",
+            "language": "English",
+            "reason": "Atomic bomb creation drama",
+            "mood": "thoughtful",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Killers of the Flower Moon",
+            "year": "2023",
+            "genre": "Crime/Drama",
+            "language": "English",
+            "reason": "Historical crime drama",
+            "mood": "thoughtful",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Poor Things",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Frankenstein-inspired comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Holdovers",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Christmas boarding school comedy",
+            "mood": "emotional",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "American Fiction",
+            "year": "2023",
+            "genre": "Comedy/Drama",
+            "language": "English",
+            "reason": "Satirical literary comedy",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Anatomy of a Fall",
+            "year": "2023",
+            "genre": "Thriller/Drama",
+            "language": "French/English",
+            "reason": "Courtroom mystery thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Zone of Interest",
+            "year": "2023",
+            "genre": "Drama/Historical",
+            "language": "German",
+            "reason": "Holocaust adjacent drama",
+            "mood": "thoughtful",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "All of Us Strangers",
+            "year": "2023",
+            "genre": "Drama/Fantasy",
+            "language": "English",
+            "reason": "Ghostly family drama",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Past Lives",
+            "year": "2023",
+            "genre": "Romance/Drama",
+            "language": "English/Korean",
+            "reason": "Childhood sweethearts reconnect",
+            "mood": "emotional",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Saltburn",
+            "year": "2023",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Wealthy estate thriller",
+            "mood": "thriller",
+            "poster": "gradient-gold"
+        },
+        {
+            "name": "Ferrari",
+            "year": "2023",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Enzo Ferrari biopic",
+            "mood": "drama",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "The Iron Claw",
+            "year": "2023",
+            "genre": "Biography/Drama",
+            "language": "English",
+            "reason": "Wrestling family drama",
+            "mood": "emotional",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Dream Scenario",
+            "year": "2023",
+            "genre": "Comedy/Horror",
+            "language": "English",
+            "reason": "Man appears in dreams comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "The Boy and the Heron",
+            "year": "2023",
+            "genre": "Animation/Fantasy",
+            "language": "Japanese",
+            "reason": "Studio Ghibli fantasy",
+            "mood": "thoughtful",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Godzilla Minus One",
+            "year": "2023",
+            "genre": "Action/Drama",
+            "language": "Japanese",
+            "reason": "Post-war Godzilla drama",
+            "mood": "action",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "The Beekeeper",
+            "year": "2024",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Beekeeper revenge action",
+            "mood": "action",
+            "poster": "gradient-yellow"
+        },
+        {
+            "name": "Anyone But You",
+            "year": "2023",
+            "genre": "Romance/Comedy",
+            "language": "English",
+            "reason": "Wedding romance comedy",
+            "mood": "romance",
+            "poster": "gradient-pink"
+        },
+        {
+            "name": "Love Lies Bleeding",
+            "year": "2024",
+            "genre": "Thriller/Romance",
+            "language": "English",
+            "reason": "Gym romance thriller",
+            "mood": "thriller",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Dune: Part Two",
+            "year": "2024",
+            "genre": "Sci-Fi/Adventure",
+            "language": "English",
+            "reason": "Desert planet epic conclusion",
+            "mood": "epic",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Godzilla x Kong: The New Empire",
+            "year": "2024",
+            "genre": "Action/Sci-Fi",
+            "language": "English",
+            "reason": "Monster team-up action",
+            "mood": "action",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Civil War",
+            "year": "2024",
+            "genre": "Thriller/Drama",
+            "language": "English",
+            "reason": "Journalist war thriller",
+            "mood": "thriller",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Challengers",
+            "year": "2024",
+            "genre": "Drama/Sports",
+            "language": "English",
+            "reason": "Tennis love triangle drama",
+            "mood": "drama",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Fall Guy",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Stuntman action comedy",
+            "mood": "funny",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "Furiosa: A Mad Max Saga",
+            "year": "2024",
+            "genre": "Action/Adventure",
+            "language": "English",
+            "reason": "Post-apocalyptic origin story",
+            "mood": "action",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Kingdom of the Planet of the Apes",
+            "year": "2024",
+            "genre": "Sci-Fi/Action",
+            "language": "English",
+            "reason": "Ape civilization sequel",
+            "mood": "adventure",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "The Bikeriders",
+            "year": "2024",
+            "genre": "Drama/Crime",
+            "language": "English",
+            "reason": "Motorcycle gang drama",
+            "mood": "drama",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Kinds of Kindness",
+            "year": "2024",
+            "genre": "Drama/Comedy",
+            "language": "English",
+            "reason": "Anthology dark comedy",
+            "mood": "weird",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Hit Man",
+            "year": "2024",
+            "genre": "Comedy/Romance",
+            "language": "English",
+            "reason": "Fake hitman comedy",
+            "mood": "funny",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Inside Out 2",
+            "year": "2024",
+            "genre": "Animation/Comedy",
+            "language": "English",
+            "reason": "Emotions sequel",
+            "mood": "emotional",
+            "poster": "gradient-rainbow"
+        },
+        {
+            "name": "Bad Boys: Ride or Die",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Buddy cop action comedy",
+            "mood": "action",
+            "poster": "gradient-red"
+        },
+        {
+            "name": "A Quiet Place: Day One",
+            "year": "2024",
+            "genre": "Horror/Thriller",
+            "language": "English",
+            "reason": "Alien invasion prequel",
+            "mood": "horror",
+            "poster": "gradient-gray"
+        },
+        {
+            "name": "Twisters",
+            "year": "2024",
+            "genre": "Action/Thriller",
+            "language": "English",
+            "reason": "Storm chasing thriller",
+            "mood": "thriller",
+            "poster": "gradient-blue"
+        },
+        {
+            "name": "Borderlands",
+            "year": "2024",
+            "genre": "Action/Comedy",
+            "language": "English",
+            "reason": "Video game adaptation",
+            "mood": "action",
+            "poster": "gradient-orange"
+        },
+        {
+            "name": "Alien: Romulus",
+            "year": "2024",
+            "genre": "Horror/Sci-Fi",
+            "language": "English",
+            "reason": "Alien franchise return",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "Beetlejuice Beetlejuice",
+            "year": "2024",
+            "genre": "Comedy/Fantasy",
+            "language": "English",
+            "reason": "Ghost comedy sequel",
+            "mood": "funny",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Joker: Folie à Deux",
+            "year": "2024",
+            "genre": "Crime/Drama",
+            "language": "English",
+            "reason": "Joker musical sequel",
+            "mood": "drama",
+            "poster": "gradient-purple"
+        },
+        {
+            "name": "Gladiator II",
+            "year": "2024",
+            "genre": "Action/Drama",
+            "language": "English",
+            "reason": "Roman epic sequel",
+            "mood": "epic",
+            "poster": "gradient-brown"
+        },
+        {
+            "name": "Wicked",
+            "year": "2024",
+            "genre": "Musical/Fantasy",
+            "language": "English",
+            "reason": "Wizard of Oz prequel",
+            "mood": "musical",
+            "poster": "gradient-green"
+        },
+        {
+            "name": "Mufasa: The Lion King",
+            "year": "2024",
+            "genre": "Animation/Adventure",
+            "language": "English",
+            "reason": "Lion King prequel",
+            "mood": "adventure",
+            "poster": "gradient-gold"
+        },
+        {
+            "name": "Nosferatu",
+            "year": "2024",
+            "genre": "Horror",
+            "language": "English",
+            "reason": "Vampire horror remake",
+            "mood": "horror",
+            "poster": "gradient-black"
+        },
+        {
+            "name": "The Lord of the Rings: The War of the Rohirrim",
+            "year": "2024",
+            "genre": "Animation/Fantasy",
+            "language": "English",
+            "reason": "Lord of the Rings anime",
+            "mood": "epic",
+            "poster": "gradient-green"
+        }
+    ]
+}
+
+

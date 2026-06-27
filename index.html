@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 FEELM - Your Emotional Movie Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <meta name="theme-color" content="#0A192F">
+    <meta name="description" content="Discover perfect movies for every mood - Happy, Sad, Romantic, Angry, Tired or Surprised!">
+
+    <!-- Intro Styles -->
+    <style>
+        /* Intro Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --netflix-red: #E50914;
+            --netflix-dark: #141414;
+            --netflix-black: #000000;
+            --netflix-white: #FFFFFF;
+            --accent-glow: #FF0A16;
+            --accent-secondary: #B20710;
+            --transition-curve: cubic-bezier(0.77, 0, 0.175, 1);
+            --cinematic-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+        }
+
+        #introOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--netflix-black);
+            z-index: 9999;
+            overflow: hidden;
+            transition: opacity 1.2s ease, visibility 1.2s ease;
+        }
+
+        /* Cinematic black bars */
+        .cinematic-bars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .top-bar, .bottom-bar {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            background: var(--netflix-black);
+            transform: translateY(0);
+            transition: transform 1.5s var(--transition-curve);
+        }
+
+        .top-bar {
+            top: 0;
+        }
+
+        .bottom-bar {
+            bottom: 0;
+        }
+
+        .bars-open .top-bar {
+            transform: translateY(-100%);
+        }
+
+        .bars-open .bottom-bar {
+            transform: translateY(100%);
+        }
+
+        /* Main intro container */
+        .intro-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            opacity: 1;
+        }
+
+        /* Netflix-style red curtain effect */
+        .curtain {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: var(--netflix-red);
+            z-index: 1;
+        }
+
+        .curtain-left {
+            left: 0;
+            transform-origin: left center;
+            animation: curtainOpenLeft 2.5s var(--transition-curve) forwards;
+            animation-delay: 0.3s;
+        }
+
+        .curtain-right {
+            right: 0;
+            transform-origin: right center;
+            animation: curtainOpenRight 2.5s var(--transition-curve) forwards;
+            animation-delay: 0.3s;
+        }
+
+        /* Background gradient animation */
+        .gradient-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg,
+                var(--netflix-black) 0%,
+                var(--accent-secondary) 30%,
+                var(--netflix-red) 70%,
+                var(--netflix-black) 100%);
+            background-size: 400% 400%;
+            animation: gradientFlow 15s ease infinite;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        /* Particle system for cinematic effect */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: var(--netflix-white);
+            border-radius: 50%;
+            opacity: 0;
+            animation: particleFloat 15s linear infinite;
+        }
+
+        /* Main logo reveal */
+        .logo-reveal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            text-align: center;
+            width: 100%;
+        }
+
+        .logo-main {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 9.5rem;
+            font-weight: 900;
+            letter-spacing: 12px;
+            color: var(--netflix-white);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: logoReveal 2.2s var(--transition-curve) forwards;
+            animation-delay: 1.2s;
+            text-shadow:
+                0 0 10px rgba(255, 255, 255, 0.8),
+                0 0 30px rgba(229, 9, 20, 0.5),
+                0 0 60px rgba(229, 9, 20, 0.3);
+        }
+
+        .logo-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 300px;
+            background: radial-gradient(ellipse at center,
+                rgba(229, 9, 20, 0.4) 0%,
+                rgba(229, 9, 20, 0.2) 40%,
+                rgba(229, 9, 20, 0) 70%);
+            filter: blur(40px);
+            z-index: -1;
+            opacity: 0;
+            animation: glowPulse 4s ease-in-out infinite alternate;
+            animation-delay: 2.5s;
+        }
+
+        /* Tagline */
+        .tagline {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 300;
+            letter-spacing: 8px;
+            color: rgba(255, 255, 255, 0.8);
+            text-transform: uppercase;
+            margin-top: 10px;
+            opacity: 0;
+            animation: taglineReveal 1.8s ease forwards;
+            animation-delay: 2.8s;
+        }
+
+        /* Sound visualization */
+        .sound-visualization {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: flex-end;
+            height: 120px;
+            gap: 12px;
+            z-index: 5;
+            opacity: 0;
+            animation: soundReveal 1s ease forwards;
+            animation-delay: 3.5s;
+        }
+
+        .sound-bar {
+            width: 14px;
+            background: linear-gradient(to top,
+                var(--netflix-red) 0%,
+                var(--accent-glow) 100%);
+            border-radius: 7px 7px 4px 4px;
+            animation: soundWave 1.6s ease-in-out infinite;
+            box-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+        }
+
+        /* Loading progress */
+        .loading-progress {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            opacity: 0;
+            animation: progressReveal 1s ease forwards;
+            animation-delay: 4s;
+        }
+
+        .progress-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(to right,
+                var(--netflix-red) 0%,
+                var(--accent-glow) 100%);
+            animation: progressFill 3.5s linear forwards;
+            animation-delay: 4.2s;
+            box-shadow: 0 0 10px var(--netflix-red);
+        }
+
+        /* Footer text */
+        .footer-text {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            opacity: 0;
+            animation: footerReveal 1s ease forwards;
+            animation-delay: 4.8s;
+        }
+
+        /* Keyframe Animations */
+        @keyframes curtainOpenLeft {
+            0% {
+                transform: scaleX(1);
+            }
+            50% {
+                transform: scaleX(0.5);
+                background: var(--netflix-red);
+            }
+            100% {
+                transform: scaleX(0);
+                background: transparent;
+            }
+        }
+
+        @keyframes curtainOpenRight {
+            0% {
+                transform: scaleX(1);
+            }
+            50% {
+                transform: scaleX(0.5);
+                background: var(--netflix-red);
+            }
+            100% {
+                transform: scaleX(0);
+                background: transparent;
+            }
+        }
+
+        @keyframes gradientFlow {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.6;
+            }
+            90% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-100px) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes logoReveal {
+            0% {
+                opacity: 0;
+                transform: translateY(30px) scale(0.9);
+                letter-spacing: 30px;
+            }
+            60% {
+                opacity: 1;
+                transform: translateY(-10px) scale(1.05);
+                letter-spacing: 12px;
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+                letter-spacing: 12px;
+            }
+        }
+
+        @keyframes glowPulse {
+            0% {
+                opacity: 0.3;
+                transform: translate(-50%, -50%) scale(1);
+            }
+            100% {
+                opacity: 0.7;
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+        }
+
+        @keyframes taglineReveal {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+                letter-spacing: 15px;
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+                letter-spacing: 8px;
+            }
+        }
+
+        @keyframes soundWave {
+            0%, 100% {
+                height: 20px;
+            }
+            50% {
+                height: 90px;
+            }
+        }
+
+        @keyframes soundReveal {
+            0% {
+                opacity: 0;
+                transform: translateX(-50%) scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(-50%) scale(1);
+            }
+        }
+
+        @keyframes progressReveal {
+            0% {
+                opacity: 0;
+                transform: translateX(-50%) translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+        }
+
+        @keyframes progressFill {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+
+        @keyframes footerReveal {
+            0% {
+                opacity: 0;
+                transform: translateX(-50%) translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+        }
+
+        /* Responsive Design for Intro */
+        @media (max-width: 1200px) {
+            .logo-main {
+                font-size: 7.5rem;
+                letter-spacing: 10px;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+                letter-spacing: 6px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .logo-main {
+                font-size: 5rem;
+                letter-spacing: 6px;
+            }
+
+            .tagline {
+                font-size: 1rem;
+                letter-spacing: 4px;
+            }
+
+            .sound-visualization {
+                height: 80px;
+                gap: 8px;
+            }
+
+            .sound-bar {
+                width: 10px;
+            }
+
+            .loading-progress {
+                width: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-main {
+                font-size: 3.5rem;
+                letter-spacing: 4px;
+            }
+
+            .tagline {
+                font-size: 0.8rem;
+                letter-spacing: 3px;
+            }
+
+            .logo-glow {
+                width: 300px;
+                height: 150px;
+            }
+
+            .sound-visualization {
+                height: 60px;
+                gap: 5px;
+            }
+
+            .sound-bar {
+                width: 7px;
+            }
+
+            .loading-progress {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Intro Overlay -->
+    <div id="introOverlay">
+        <div class="cinematic-bars">
+            <div class="top-bar"></div>
+            <div class="bottom-bar"></div>
+        </div>
+
+        <div class="intro-container" id="introContainer">
+            <!-- Red curtain effect -->
+            <div class="curtain curtain-left"></div>
+            <div class="curtain curtain-right"></div>
+
+            <!-- Animated gradient background -->
+            <div class="gradient-bg"></div>
+
+            <!-- Particle system -->
+            <div class="particles" id="particlesContainer"></div>
+
+            <!-- Main logo -->
+            <div class="logo-reveal">
+                <div class="logo-glow"></div>
+                <div class="logo-main">Feelm</div>
+                <div class="tagline">FEEL THE EMOTION</div>
+            </div>
+
+            <!-- Sound visualization -->
+            <div class="sound-visualization" id="soundVisualization"></div>
+
+            <!-- Loading progress -->
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+
+            <!-- Footer text -->
+            <div class="footer-text">PREMIUM STREAMING EXPERIENCE</div>
+        </div>
+    </div>
+
+    <!-- Hidden audio for intro sound -->
+    <audio id="introSound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-cinematic-impact-871.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Original App Content (Hidden during intro) -->
+    <div id="mainApp" style="display: none;">
+        <!-- Animated Background Particles -->
+        <div id="particles-js"></div>
+        <div class="mood-weather"></div>
+
+        <!-- Audio Elements -->
+        <audio id="notificationSound" src="https://assets.mixkit.co/sfx/preview/mixkit-select-click-1109.mp3" preload="auto"></audio>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay">
+            <div class="loading-content">
+                <div class="film-reel-spinner">
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                </div>
+                <p class="loading-text" data-en="Loading cinematic experience..." data-ta="சினிமா அனுபவம் ஏற்றப்படுகிறது..."></p>
+            </div>
+        </div>
+
+        <!-- Main Container -->
+        <div class="container">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <div class="logo-container">
+                        <div class="logo-icon">
+                            <i class="fas fa-film"></i>
+                            <div class="logo-pulse"></div>
+                        </div>
+                        <h1 class="logo-text">FEEL<span class="logo-highlight">M</span></h1>
+                    </div>
+                    <p class="tagline" data-en="Movies that match your emotion" data-ta="உங்கள் உணர்ச்சிக்கு பொருந்தும் திரைப்படங்கள்"></p>
+                </div>
+
+                <div class="header-controls">
+                    <!-- Theme Toggle -->
+                    <button id="themeToggle" class="control-btn theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+
+                    <!-- Language Toggle -->
+                    <div class="language-switch">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="ta">தமிழ்</button>
+                    </div>
+
+                    <!-- Install App Button -->
+                    <button id="installBtn" class="control-btn install-btn" aria-label="Install app" style="display: none;">
+                        <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Auto Mood Timer -->
+            <div class="auto-mood-container">
+                <div class="timer-display">
+                    <i class="fas fa-clock"></i>
+                    <span class="timer-label" data-en="Auto mood in:" data-ta="தானியங்கி மனநிலை:"></span>
+                    <span id="autoMoodTimer" class="timer-count">3</span>
+                    <span class="timer-seconds" data-en="sec" data-ta="வினாடி"></span>
+                </div>
+            </div>
+
+            <!-- Quick Pick Section -->
+            <section class="quick-pick-section">
+                <h2 class="section-title" data-en="Quick Picks" data-ta="விரைவான தேர்வுகள்"></h2>
+                <div class="quick-buttons">
+                    <button class="quick-btn" data-mood="light">
+                        <i class="fas fa-sun"></i>
+                        <span data-en="Light Fun" data-ta="இலகு வேடிக்கை"></span>
+                    </button>
+                    <button class="quick-btn" data-mood="popular">
+                        <i class="fas fa-fire"></i>
+                        <span data-en="Popular Now" data-ta="தற்போது பிரபலமானது"></span>
+                    </button>
+                    <button class="quick-btn" data-mood="feelgood">
+                        <i class="fas fa-smile-beam"></i>
+                        <span data-en="Feel Good" data-ta="நன்றாக உணருங்கள்"></span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Mood Selection Grid -->
+            <section class="mood-section">
+                <h2 class="section-title" data-en="How are you feeling?" data-ta="நீங்கள் எப்படி உணர்கிறீர்கள்?"></h2>
+                <div class="mood-grid">
+                    <!-- Mood buttons will be generated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Special Modes -->
+            <section class="special-modes">
+                <div class="mode-buttons">
+                    <button id="surpriseMe" class="mode-btn surprise-btn">
+                        <div class="mode-icon">
+                            <i class="fas fa-gift"></i>
+                            <div class="confetti"></div>
+                        </div>
+                        <span data-en="Surprise Me!" data-ta="என்னை ஆச்சரியப்படுத்து!"></span>
+                    </button>
+
+                    <button id="eatingMode" class="mode-btn eating-btn">
+                        <div class="mode-icon">
+                            <i class="fas fa-utensils"></i>
+                            <div class="food-particle"></div>
+                        </div>
+                        <span data-en="Eating Mode" data-ta="சாப்பிடும் முறை"></span>
+                    </button>
+                </div>
+
+                <!-- Eating Options (Hidden by default) -->
+                <div id="eatingOptions" class="eating-options" style="display: none;">
+                    <h3 data-en="Choose your eating style:" data-ta="உங்கள் சாப்பிடும் பாணியைத் தேர்ந்தெடுக்கவும்:"></h3>
+                    <div class="eating-buttons">
+                        <button class="eating-btn" data-type="comedy">
+                            <i class="fas fa-laugh"></i>
+                            <span data-en="Comedy" data-ta="காமெடி"></span>
+                        </button>
+                        <button class="eating-btn" data-type="feelgood">
+                            <i class="fas fa-heart"></i>
+                            <span data-en="Feel Good" data-ta="நன்றாக உணருங்கள்"></span>
+                        </button>
+                        <button class="eating-btn" data-type="light">
+                            <i class="fas fa-bolt"></i>
+                            <span data-en="Light Action" data-ta="இலகு நடவடிக்கை"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Movie Display Section -->
+            <section class="movie-display">
+                <div class="movie-header">
+                    <h2 id="currentMoodTitle" class="mood-title" data-en="Select your mood" data-ta="உங்கள் மனநிலையைத் தேர்ந்தெடுக்கவும்"></h2>
+                    <div class="movie-controls">
+                        <button id="shuffleBtn" class="control-btn shuffle-btn">
+                            <i class="fas fa-random"></i>
+                            <span data-en="Shuffle" data-ta="குழப்பு"></span>
+                        </button>
+                        <button id="backBtn" class="control-btn back-btn">
+                            <i class="fas fa-arrow-left"></i>
+                            <span data-en="Back" data-ta="பின் செல்"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Movie Grid -->
+                <div id="movieGrid" class="movie-grid">
+                    <div class="no-movies">
+                        <div class="empty-state">
+                            <i class="fas fa-film"></i>
+                            <p data-en="Select a mood to see movie recommendations" data-ta="திரைப்பட பரிந்துரைகளைப் பார்க்க மனநிலையைத் தேர்ந்தெடுக்கவும்"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- View More Button (Hidden until needed) -->
+                <div class="view-more-container">
+                    <button id="viewMoreBtn" class="view-more-btn" style="display: none;">
+                        <span data-en="Load More Movies" data-ta="மேலும் திரைப்படங்களை ஏற்றவும்"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="app-footer">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <p data-en="🎬 Powered by MOOD MOVIES " data-ta="🎬 மூட்மேஜிக் தொழில்நுட்பத்தால் இயக்கப்படுகிறது"></p>
+                        <p class="movie-count" data-en="600+ Movies | Smart Recommendations" data-ta="600+ திரைப்படங்கள் | புத்திசாலி பரிந்துரைகள்"></p>
+                    </div>
+                    <div class="footer-links">
+                        <button class="footer-btn" data-en="About" data-ta="பற்றி"></button>
+                        <button class="footer-btn" data-en="Contact" data-ta="தொடர்பு"></button>
+                        <button class="footer-btn" data-en="Feedback" data-ta="கருத்து"></button>
+                    </div>
+                </div>
+                <div class="footer-credits">
+                    <p data-en="Made with ❤️ for movie lovers" data-ta="திரைப்பட ரசிகர்களுக்காக ❤️ உடன் தயாரிக்கப்பட்டது"></p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Mood Particles Script -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <!-- Main App Script -->
+        <script src="main.js"></script>
+
+        <!-- Particles Background Configuration -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                if (typeof particlesJS !== 'undefined') {
+                    particlesJS('particles-js', {
+                        particles: {
+                            number: { value: 80, density: { enable: true, value_area: 800 } },
+                            color: { value: "#ffffff" },
+                            shape: { type: "circle" },
+                            opacity: { value: 0.3, random: true },
+                            size: { value: 3, random: true },
+                            line_linked: {
+                                enable: true,
+                                distance: 150,
+                                color: "#ffffff",
+                                opacity: 0.2,
+                                width: 1
+                            },
+                            move: {
+                                enable: true,
+                                speed: 2,
+                                direction: "none",
+                                random: true,
+                                straight: false,
+                                out_mode: "out",
+                                bounce: false
+                            }
+                        },
+                        interactivity: {
+                            detect_on: "canvas",
+                            events: {
+                                onhover: { enable: true, mode: "repulse" },
+                                onclick: { enable: true, mode: "push" }
+                            }
+                        }
+                    });
+                }
+            });
+        </script>
+
+        <!-- Service Worker Registration -->
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    }, function(err) {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+                });
+            }
+        </script>
+    </div>
+
+    <!-- Intro JavaScript -->
+    <script>
+        // DOM Elements
+        const introOverlay = document.getElementById('introOverlay');
+        const mainApp = document.getElementById('mainApp');
+        const particlesContainer = document.getElementById('particlesContainer');
+        const soundVisualization = document.getElementById('soundVisualization');
+        const cinematicBars = document.querySelector('.cinematic-bars');
+        const introSound = document.getElementById('introSound');
+
+        // Configuration
+        const CONFIG = {
+            TOTAL_DURATION: 7500, // 7.5 seconds
+            PARTICLE_COUNT: 80,
+            SOUND_BARS: 25,
+            ENABLE_SOUND: true
+        };
+
+        // Initialize the intro
+        function initIntro() {
+            createParticles();
+            createSoundBars();
+            startIntro();
+
+            // Play intro sound if enabled
+            if (CONFIG.ENABLE_SOUND) {
+                setTimeout(() => {
+                    introSound.volume = 0.3;
+                    introSound.play().catch(e => console.log("Autoplay prevented:", e));
+                }, 1200);
+            }
+
+            // Auto transition to main app after intro
+            setTimeout(() => {
+                completeIntro();
+            }, CONFIG.TOTAL_DURATION);
+
+            // Open cinematic bars after a delay
+            setTimeout(() => {
+                cinematicBars.classList.add('bars-open');
+            }, 500);
+        }
+
+        // Create particle system
+        function createParticles() {
+            for (let i = 0; i < CONFIG.PARTICLE_COUNT; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+
+                // Random properties
+                const size = Math.random() * 2 + 1;
+                const left = Math.random() * 100;
+                const delay = Math.random() * 15;
+                const duration = Math.random() * 10 + 10;
+
+                // Apply styles
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${left}%`;
+                particle.style.animationDelay = `${delay}s`;
+                particle.style.animationDuration = `${duration}s`;
+
+                // Random color variation
+                if (Math.random() > 0.7) {
+                    particle.style.background = 'var(--netflix-red)';
+                    particle.style.boxShadow = '0 0 10px var(--netflix-red)';
+                }
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Create sound visualization bars
+        function createSoundBars() {
+            for (let i = 0; i < CONFIG.SOUND_BARS; i++) {
+                const bar = document.createElement('div');
+                bar.classList.add('sound-bar');
+
+                // Random height and animation delay
+                const randomHeight = Math.random() * 40 + 20;
+                const delay = i * 0.05;
+
+                bar.style.height = `${randomHeight}px`;
+                bar.style.animationDelay = `${delay}s`;
+
+                // Random red intensity
+                const redIntensity = Math.floor(Math.random() * 50 + 180);
+                bar.style.background = `linear-gradient(to top,
+                    rgb(${redIntensity}, 9, 20) 0%,
+                    rgb(255, ${Math.floor(Math.random() * 50)}, ${Math.floor(Math.random() * 50)}) 100%)`;
+
+                soundVisualization.appendChild(bar);
+            }
+        }
+
+        // Start intro sequence
+        function startIntro() {
+            console.log("Feelm Premium Intro started");
+
+            // Add keyboard shortcut for completion (Space or Enter)
+            document.addEventListener('keydown', (e) => {
+                if (e.code === 'Space' || e.code === 'Enter' || e.code === 'Escape') {
+                    e.preventDefault();
+                    completeIntro();
+                }
+
+                // M to mute/unmute sound
+                if (e.code === 'KeyM') {
+                    introSound.muted = !introSound.muted;
+                }
+            });
+
+            // Click anywhere to complete intro
+            document.addEventListener('click', () => {
+                completeIntro();
+            });
+
+            // Mouse move effect on logo
+            const logo = document.querySelector('.logo-main');
+            logo.addEventListener('mousemove', (e) => {
+                const rect = logo.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const xPercent = x / rect.width;
+                const yPercent = y / rect.height;
+
+                const shadowX = (xPercent - 0.5) * 30;
+                const shadowY = (yPercent - 0.5) * 30;
+
+                logo.style.textShadow = `
+                    ${shadowX}px ${shadowY}px 10px rgba(255, 255, 255, 0.8),
+                    0 0 30px rgba(229, 9, 20, 0.5),
+                    0 0 60px rgba(229, 9, 20, 0.3)
+                `;
+            });
+
+            logo.addEventListener('mouseleave', () => {
+                logo.style.textShadow = `
+                    0 0 10px rgba(255, 255, 255, 0.8),
+                    0 0 30px rgba(229, 9, 20, 0.5),
+                    0 0 60px rgba(229, 9, 20, 0.3)
+                `;
+            });
+        }
+
+        // Complete intro and transition to main app
+        function completeIntro() {
+            console.log("Feelm Premium Intro completed");
+
+            // Fade out intro
+            introOverlay.style.opacity = '0';
+            introOverlay.style.visibility = 'hidden';
+
+            // Close cinematic bars
+            cinematicBars.classList.remove('bars-open');
+
+            // Pause sound
+            introSound.pause();
+
+            // Show main app
+            setTimeout(() => {
+                mainApp.style.display = 'block';
+
+                // Trigger any initialization that should happen after app is visible
+                window.dispatchEvent(new Event('appReady'));
+            }, 500);
+        }
+
+        // Initialize when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            initIntro();
+        });
+
+        // Handle page visibility changes
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                introSound.pause();
+            } else if (introSound.currentTime > 0 && !introSound.ended) {
+                introSound.play().catch(e => console.log("Playback interrupted"));
+            }
+        });
+    </script>
+</body>
+</html>
